@@ -24,7 +24,7 @@ THEN I am prompted to select an employee to update and their new role and this i
 
 ## Installation 
 - Open terminal
-- Run command 'node server.js' 
+- Run command 'node app.js' 
 - Follow prompts to navigate database 
 
 ## Usage 
@@ -43,3 +43,6 @@ THEN I am prompted to select an employee to update and their new role and this i
 ## License 
 
 - MIT 
+
+<!-- mysql -u your-username -p your-database-name < schema.sql -->
+<!-- mysql -u your-username -p your-database-name < seed.sql -->
