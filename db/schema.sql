@@ -1,10 +1,10 @@
--- Create the departments table
+
 CREATE TABLE departments (
   id INT AUTO_INCREMENT PRIMARY KEY,
   name VARCHAR(255) NOT NULL
 );
 
--- Create the roles table
+
 CREATE TABLE roles (
   id INT AUTO_INCREMENT PRIMARY KEY,
   title VARCHAR(255) NOT NULL,
@@ -13,7 +13,7 @@ CREATE TABLE roles (
   FOREIGN KEY (department_id) REFERENCES departments(id)
 );
 
--- Create the employees table
+
 CREATE TABLE employees (
   id INT AUTO_INCREMENT PRIMARY KEY,
   first_name VARCHAR(255) NOT NULL,
